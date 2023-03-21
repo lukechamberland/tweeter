@@ -24,3 +24,11 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ main {
+  width: 90%;
+  height: 100%;
+  background: #f4f1ec;
+  margin: auto;
+  padding: 100px 0 70px 0;
+ }
