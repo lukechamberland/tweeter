@@ -12,6 +12,7 @@
     rel="stylesheet">
   <link href="nav.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="/styles/new-tweet.css" rel="stylesheet" type="text/css">
   
   <!-- External CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -50,6 +51,17 @@
 
   <!-- Page-specific (main) content here -->
   <main class="container">
+    <section class="new-tweet">
+      <h2>Compose Tweet</h2>
+      <form action="/tweets" method="POST">
+        <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
+        <div class="submit-section">
+          <button class="submit-btn" type="submit">Tweet</button>
+          <output name="counter" class="counter" for="tweet-text">140</output>
+        </div>
+      </form>
+    </section>
+
     <div id="header">
 
       <div>

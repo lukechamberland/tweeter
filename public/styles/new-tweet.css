@@ -1,0 +1,26 @@
+.new-tweet {
+  /* position: fixed; */
+  height: 180px;
+}
+
+#tweet-text {
+  border: none;
+  border-bottom: 2px solid #545149;
+  width: 100%;
+  
+}
+
+.submit-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-btn {
+  font-family: 'Bungee', cursive;
+  color: #ffffff;
+  background-color: #4056A1;
+}
+
+.counter {
+  font-family: 'bungee', cursive;
+}
