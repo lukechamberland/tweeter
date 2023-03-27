@@ -26,7 +26,8 @@
 }
 
 .container {
-  background-color: rgb(189, 189, 247);
-  border: 2px solid black
+  background-color: rgb(205, 205, 205);
+  border: 2px solid black;
+  justify-content: center;
 }
 
