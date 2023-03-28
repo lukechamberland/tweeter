@@ -42,9 +42,9 @@ const loadTweets = function() {
 
   $("form").submit(function(event) {
     event.preventDefault();
-    
+   // $(".Input-class").text();
     if ($( this ).find("textarea").val() === "" || $( this ).find("textarea").val() === null) {
-      alert("Tweet box cannot be left empty");
+      $('.error').css("display", "block");
     }
 
     $.ajax({
@@ -57,4 +57,4 @@ const loadTweets = function() {
     });
   });
   loadTweets();
-})
+});

@@ -58,8 +58,11 @@
   <main class="container">
     <section class="new-tweet">
       <h2>Compose Tweet</h2>
+      <div class="error">
+        An error has occured. Please make sure the tweet input is not empty.
+      </div>
       <form action="/tweets" method="POST">
-        <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
+        <textarea name="text" id="tweet-text" placeholder="What are you humming about?" class="Input-class"></textarea>
         <div class="submit-section">
           <button class="submit-btn" type="submit">Tweet</button>
           <output name="counter" class="counter" for="tweet-text">140</output>

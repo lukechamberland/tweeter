@@ -31,3 +31,10 @@
   justify-content: center;
 }
 
+.error {
+  color: red;
+  background-color:rgb(227, 172, 172);
+  font-family: 'Bungee', cursive;
+  border: 1px solid red;
+  display: none;
+}
