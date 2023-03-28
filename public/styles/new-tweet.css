@@ -1,5 +1,8 @@
+.container {
+  width: 90%;
+}
+
 .new-tweet {
-  /* position: fixed; */
   height: 180px;
 }
 
@@ -37,4 +40,12 @@
   font-family: 'Bungee', cursive;
   border: 1px solid red;
   display: none;
+}
+
+.exceeded-error {
+  color: red;
+  background-color: rgb(227, 172, 172);
+  font-family: 'Bungee', cursive;
+  border: 1px solid red;
+  display: none
 }
