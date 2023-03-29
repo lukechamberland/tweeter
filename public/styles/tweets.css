@@ -1,0 +1,11 @@
+article {
+  margin: 25px;
+  background-color: rgb(205, 205, 205);
+  border: 2px solid black;
+  justify-content: center;
+}
+
+footer {
+  display: flex; 
+  justify-content: space-between;
+}

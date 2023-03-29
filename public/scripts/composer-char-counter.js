@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#tweet-text").keydown(function() {
+  $("#tweet-text").on("input", function() {
     let str = $(this).val()
     let counter = 140 - str.length
     $(".counter").val(counter)
@@ -10,4 +10,6 @@ $(document).ready(function() {
     }
   })
 });
+
+
 

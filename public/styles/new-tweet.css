@@ -1,6 +1,7 @@
 .container {
   width: 90%;
   margin: 0 auto;
+  background-color:rgb(245, 245, 245)
 }
 
 .new-tweet {
@@ -11,7 +12,7 @@
   border: none;
   border-bottom: 2px solid #545149;
   width: 100%;
-  
+  background-color: rgb(245, 245, 245)
 }
 
 .submit-section {
@@ -27,13 +28,6 @@
 
 .counter {
   font-family: 'Bungee', cursive;
-}
-
-article {
-  margin: 25px;
-  background-color: rgb(205, 205, 205);
-  border: 2px solid black;
-  justify-content: center;
 }
 
 .error {
@@ -54,4 +48,8 @@ article {
 
 article:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.tweet-text {
+  border-bottom: 1px solid rgb(65, 65, 65);
 }

@@ -54,13 +54,15 @@ const loadTweets = function() {
     } else {
       $(".exceeded-error").css("display", "none");
     }
-
+    
     $.ajax({
       type: "POST",
       url: '/tweets',
       data: $(this).serialize(),
     }).then(function() {
+      $("textarea").val('');
       $("#tweets-container").empty();
+      $(".counter").val(140);
       loadTweets();
     });
   });
