@@ -1,10 +1,21 @@
 #header {
   display: flex; 
-  height: 400px;
+  flex-direction: column;
+  height: 520px;
   width: 100%;
+  padding: 100px;
   text-align: center;
   align-items: center;
   justify-content: center;
-  background-color: #00238c;
-  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+  background-color: #049494;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+
+#first-name {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+#full-name {
+  color: rgb(167, 221, 245);
 }

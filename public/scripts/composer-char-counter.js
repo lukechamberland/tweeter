@@ -9,11 +9,5 @@ $(document).ready(function() {
       $(".counter").css("color", "black")
     }
   })
-  $('#tweet-text').keyup(function() {
-    var characterCount = $(this).val().length;
-    if (characterCount > 140) {
-      $('.error-message').css("display", "show")
-    }
-  });
 });
 

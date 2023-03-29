@@ -26,9 +26,22 @@ body {
  */
 
  main {
+  /* display: flex; */
   width: 90%;
   height: 100%;
   background: #f4f1ec;
-  margin: auto;
-  padding: 100px 0 70px 0;
  }
+
+ 
+
+#tweet-container {
+  width: 90%;
+}
+
+/* On screens that are 1024px and above */
+@media screen and (min-width: 1024px) {
+  main {
+    display: flex;
+    padding-top: 100px;
+  }
+}

@@ -4,7 +4,7 @@ $(document).ready(function() {
     const $tweet = $(`
     <article>
     <header>
-      <img src="/images/profile-hex.png">
+      <img src="${tweetData.user.avatars}">
       <h3>${tweetData.user.name}</h3>
     </header>
     <section class="tweet-text">${tweetData.content.text}</section>
@@ -26,7 +26,7 @@ $(document).ready(function() {
 const renderTweets = function(tweets) {
   for (const tweet of tweets) {
     const $tweet = createTweetElement(tweet);
-  $("#tweets-container").append($tweet);
+  $("#tweets-container").prepend($tweet);
 
   }
 }
@@ -42,9 +42,17 @@ const loadTweets = function() {
 
   $("form").submit(function(event) {
     event.preventDefault();
-   // $(".Input-class").text();
     if ($( this ).find("textarea").val() === "" || $( this ).find("textarea").val() === null) {
       $('.error').css("display", "block");
+      return;
+    } else {
+      $('.error').css("display", "none");
+    }
+    if ($(this).find("textarea").val().length > 140) {
+      $(".exceeded-error").css("display", "block");
+      return;
+    } else {
+      $(".exceeded-error").css("display", "none");
     }
 
     $.ajax({
