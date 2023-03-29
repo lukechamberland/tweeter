@@ -1,6 +1,7 @@
-//Implementing correct character counter and color change
-
 $(document).ready(function() {
+
+  // Implement proper counter and color change
+  
   $("#tweet-text").on("input", function() {
     let str = $(this).val();
     let counter = 140 - str.length;
