@@ -1,4 +1,6 @@
 $(document).ready(function() {
+ 
+  // Implements the correct random names and avatars, and timeago
 
   const createTweetElement = function(tweetData) {
     const $tweet = $(`
@@ -22,6 +24,7 @@ $(document).ready(function() {
     `);
     return $tweet;
   }
+// Renders the tweets in reverse order
 
 const renderTweets = function(tweets) {
   for (const tweet of tweets) {
@@ -40,6 +43,8 @@ const loadTweets = function() {
   });
 }
 
+// Implements errors
+
   $("form").submit(function(event) {
     event.preventDefault();
     if ($( this ).find("textarea").val() === "" || $( this ).find("textarea").val() === null) {
@@ -55,6 +60,8 @@ const loadTweets = function() {
       $(".exceeded-error").css("display", "none");
     }
     
+// clears text area and loads tweet after tweet is submitted
+
     $.ajax({
       type: "POST",
       url: '/tweets',
