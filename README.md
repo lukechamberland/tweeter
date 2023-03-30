@@ -8,7 +8,7 @@ Overall, I really enjoyed this project, and I loved the way this project took a 
 
 ## Images
 
-
+![The main page when the application is opened](../../Desktop/Screenshot%202023-03-30%20at%202.44.00%20PM%20(2).png)
 
 ## Getting Started
 
