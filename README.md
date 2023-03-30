@@ -6,6 +6,10 @@ This project is a simple, one page app, that allows users to write and sumbit tw
 
 Overall, I really enjoyed this project, and I loved the way this project took a deep dive into front end development.  I felt as though this project included a lot of creative and personalized ideas, and allowed the creater to really treat this like their own app, and implement their own ideas and customize the majority of their page.  I personally found the combination of html, css, jquery, and javascript quite unique, and it certainly expanded my knowledge of these programming/markup languages.  I would highly this project or one similar to anyone hoping to learn more about these topics. I very much enjoyed my time on this project.
 
+## Images
+
+
+
 ## Getting Started
 
 1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
