@@ -45,7 +45,7 @@
   background-color: rgb(227, 172, 172);
   font-family: 'Bungee', cursive;
   border: 1px solid red;
-  display: none
+  display: none;
 }
 
 article:hover {
@@ -58,5 +58,5 @@ article:hover {
 }
 
 #tweets-container {
-  padding-top: 20px
+  padding-top: 20px;
 }
