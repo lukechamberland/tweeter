@@ -6,13 +6,15 @@
 
 .new-tweet {
   height: 180px;
+  padding-bottom: 20px;
 }
 
 #tweet-text {
   border: none;
   border-bottom: 2px solid #545149;
   width: 100%;
-  background-color: rgb(245, 245, 245)
+  background-color: rgb(245, 245, 245);
+  padding: 5px;
 }
 
 .submit-section {
@@ -52,4 +54,9 @@ article:hover {
 
 .tweet-text {
   border-bottom: 1px solid rgb(65, 65, 65);
+  padding: 5px;
+}
+
+#tweets-container {
+  padding-top: 20px
 }

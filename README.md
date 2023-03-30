@@ -1,8 +1,10 @@
 # Tweeter Project
 
-Tweeter is a simple, single-page Twitter clone.
+This project is a simple, one page app, that allows users to write and sumbit tweets, which will then show up in a very classic social media format, along with any other tweets in a column style.  The project does not require a page refresh after each tweet, and it also allows the original users username to be present, along with their avatar at the top of the page.  A styled nav bar can also be found at the very top of the page, adding to the social-media like feel of the application. 
 
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
+## My Experience
+
+Overall, I really enjoyed this project, and I loved the way this project took a deep dive into front end development.  I felt as though this project included a lot of creative and personalized ideas, and allowed the creater to really treat this like their own app, and implement their own ideas and customize the majority of their page.  I personally found the combination of html, css, jquery, and javascript quite unique, and it certainly expanded my knowledge of these programming/markup languages.  I would highly this project or one similar to anyone hoping to learn more about these topics. I very much enjoyed my time on this project.
 
 ## Getting Started
 

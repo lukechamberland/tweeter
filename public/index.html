@@ -49,7 +49,7 @@
         Write a new tweet
       </span>
       <div>
-        <i class="fa-solid fa-angles-down"></i>
+        <i id="angles-down" class="fa-solid fa-angles-down"></i>
       </div>
     </div>
   </nav>
@@ -74,10 +74,10 @@
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
         <div class="error">
-          An error has occured. Please make sure the tweet input is not empty.
+          Error: Empty input
         </div>
         <div class="exceeded-error">
-          Cannon process tweet. Maximum character limit exceeded.
+          Error: Limit exceeded
         </div>
         <form action="/tweets" method="POST">
           <textarea name="text" id="tweet-text" placeholder="What are you humming about?" class="Input-class"></textarea>

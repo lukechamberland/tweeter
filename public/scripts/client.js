@@ -6,7 +6,10 @@ $(document).ready(function() {
     const $tweet = $(`
     <article>
     <header>
-      <img src="${tweetData.user.avatars}">
+      <img src="${tweetData.user.avatars}" id="avatars">
+      <span class="handle">
+      ${tweetData.user.handle}
+      </span>
       <h3>${tweetData.user.name}</h3>
     </header>
     <section class="tweet-text">${tweetData.content.text}</section>

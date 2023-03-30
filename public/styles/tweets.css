@@ -8,4 +8,22 @@ article {
 footer {
   display: flex; 
   justify-content: space-between;
+  padding: 5px;
+}
+
+.body-container {
+  padding: 30px;
+}
+
+.handle {
+  float: right;
+  padding: 5px;
+}
+
+h3 {
+  padding: 2px;
+}
+
+#avatars {
+  padding: 5px
 }
