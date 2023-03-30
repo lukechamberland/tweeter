@@ -10,6 +10,18 @@ Overall, I really enjoyed this project, and I loved the way this project took a 
 
 ![The main page when the application is opened](https://github.com/lukechamberland/tweeter/blob/master/doc/Screenshot%202023-03-30%20at%202.44.00%20PM%20(2).png?raw=true)
 
+![Counter counts down as characters are typed in](https://github.com/lukechamberland/tweeter/blob/master/doc/Screenshot%202023-03-30%20at%202.56.21%20PM%20(2).png?raw=true)
+
+![New tweet is present at the top of the page after tweet button is clicked](https://github.com/lukechamberland/tweeter/blob/master/doc/Screenshot%202023-03-30%20at%202.56.50%20PM%20(2).png?raw=true)
+
+![Error is displayed if user tries to sumbit empty tweet](https://github.com/lukechamberland/tweeter/blob/master/doc/Screenshot%202023-03-30%20at%202.57.27%20PM%20(2).png?raw=true)
+
+![Counter turns red if number of character is more than 140](https://github.com/lukechamberland/tweeter/blob/master/doc/Screenshot%202023-03-30%20at%202.59.55%20PM%20(2).png?raw=true)
+
+![Error is shown if user tries to sumbit tweet with more than 140 characters](https://github.com/lukechamberland/tweeter/blob/master/doc/Screenshot%202023-03-30%20at%203.00.17%20PM%20(2).png?raw=true)
+
+![page turns into single column page if width is less than 140](https://github.com/lukechamberland/tweeter/blob/master/doc/Screenshot%202023-03-30%20at%203.04.42%20PM%202.png?raw=true)
+
 ## Getting Started
 
 1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
