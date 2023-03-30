@@ -18,9 +18,9 @@ $(document).ready(function() {
         ${timeago.format(tweetData.created_at)}
       </span>
       <div class="icons">
-        <i class="fa-regular fa-flag"></i>
-        <i class="fas fa-retweet"></i>
-        <i class="fa-regular fa-heart"></i>
+      <i id="icon1"class="fa-solid fa-flag"></i>
+        <i id="icon2"class="fas fa-retweet"></i>
+        <i id="icon3"class="fa-solid fa-heart"></i>
       </div>
     </footer>
   </article>

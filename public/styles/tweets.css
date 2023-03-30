@@ -18,6 +18,8 @@ footer {
 .handle {
   float: right;
   padding: 5px;
+  color: #4056A1;
+  opacity: 0.5
 }
 
 h3 {
@@ -26,4 +28,20 @@ h3 {
 
 #avatars {
   padding: 5px;
+}
+
+.icons {
+  color: #4056A1;
+}
+
+#icon1:hover {
+  color:rgb(103, 246, 254);
+}
+
+#icon2:hover {
+  color:rgb(103, 246, 254);
+}
+
+#icon3:hover {
+  color:rgb(103, 246, 254);
 }
